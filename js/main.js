@@ -15,8 +15,7 @@
       .replaceAll("{personName}", cfg.personName)
       .replaceAll("{phone}", cfg.phoneDisplay)
       .replaceAll("{email}", cfg.email)
-      .replaceAll("{tagline}", lang === "fr" ? cfg.taglineFr : cfg.taglineEn)
-      .replaceAll("{address}", cfg.addressText);
+      .replaceAll("{tagline}", lang === "fr" ? cfg.taglineFr : cfg.taglineEn);
   }
 
   function interpolateDeep(val) {

@@ -17,9 +17,6 @@ window.SITE_CONFIG = {
   phoneDisplay: "1-514-575-2751",
   phoneHref: "tel:+15145752751",
   email: "dwboloten@gmail.com",
-  addressText: "4803 Ave Draper, Montréal, Québec H3X 3P6",
-  addressLine1: "4803 Ave Draper",
-  addressLine2: "Montréal (Québec)  H3X 3P6",
   /* Leave empty to send via mailto:. Set to a URL (e.g. a form backend)
      later — that is the only change needed to stop using mailto. */
   formEndpoint: ""
